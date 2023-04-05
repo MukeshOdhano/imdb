@@ -1,11 +1,12 @@
-import { Inter } from 'next/font/google'
+import "./globals.css"
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
-      <h1>Home</h1>
+    <main className='m-9 bg-orange-600 p-4'>
+        <h1 className="text-3xl">
+          Hello world!
+        </h1>
     </main>
   )
 }
