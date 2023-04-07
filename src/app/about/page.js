@@ -3,9 +3,9 @@ import React from "react";
 export default function About(){
    return(
       <>
-         <div className="max-w-6xl min-h-[80vh] mx-auto space-y-5 flex flex-col justify-center ">
+         <div className=" max-w-6xl min-h-[80vh] mx-8 my-4 lg:mx-auto space-y-5 flex flex-col justify-center ">
             <h1 className="text-4xl">About</h1>
-            <div className="text-[18px] space-y-1">
+            <div className="text-[18px] space-y-4">
                <p>
                   The IMDb (Internet Movie Database) is a comprehensive online database that contains information about movies, television shows, actors, directors, and other film industry professionals. Each entry in the IMDb database has its own dedicated page, which provides users with a wealth of information about the subject.
                </p>

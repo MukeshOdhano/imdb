@@ -1,7 +1,8 @@
 import './globals.css'
 
-import Header from '@/components/Header'
 import Providers from './Providers'
+import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 
 
 export const metadata = {
@@ -16,8 +17,9 @@ export default function RootLayout({ children }) {
         <Providers>
           {/* Header */}
           <Header/>
+          
           {/* Navbar */}
-
+          <Navbar/>
           {/* Search */}
 
           {children}

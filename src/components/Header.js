@@ -23,7 +23,7 @@ export default function Header() {
 
             <Link href="/">
                <h1 style={Styles} className='lg:pr-2 lg:py-2 text-2xl font-bold lg:border-2 lg:border-orange-500 lg:hover:bg-[#f9731622]'>
-                  <span className='bg-orange-500 lg:bg-transparent rounded-md sm:px-2 '>IMDB</span>
+                  <span className='bg-orange-500 lg:bg-transparent rounded-md px-2 '>IMDB</span>
                   <span className='text-orange-500  hidden sm:inline'>Clone</span>
                </h1>
             </Link>
