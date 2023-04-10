@@ -12,11 +12,11 @@ export default function NavbarItem({title, param}) {
     <div 
       className={`
          mx-2 pb-1 cursor-pointer 
-         text-[#111] text-[22px]
+         text-[#000000] text-[22px]
          dark:text-gray-200
          ${
             genre && genre === param &&
-            "underline underline-offset-8 decoration-4 dark:decoration-slate-200"
+            "underline underline-offset-8 decoration-3 dark:decoration-slate-200"
          }
          transition-all duration-75 ease-in
          `}
