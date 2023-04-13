@@ -28,7 +28,6 @@ export default async function Home({searchParams}) {
 
   return (
     <main>
-      {/* <Image src={`${demo.backdrop_path}`} alt={`${demo.title}`} width={200} height={300}/> */}
       <Results resultsProps={results}/>
     </main>
   )

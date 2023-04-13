@@ -1,16 +1,23 @@
 import React from 'react'
 import Image from "next/image";
+import Card from './Card';
 
 export default function Results({resultsProps}) {
+  console.log(resultsProps[0])
   return (
-    <div>
+    <div 
+      className=' 
+                  max-w-6xl mx-auto py-4
+                  grid place-items-center gap-4
+                  lg:grid-cols-4 
+                  md:grid-cols-3
+                  sm:grid-cols-2 
+                '
+    >
       {
-         resultsProps.map(result =>(
-            <div key={result.id} >
-               <h1 className='text-2xl'>{result.title}</h1>
-               <p className='mb-4 '>{result.overview}</p>
-            </div>
-         ))
+        resultsProps.map(result =>(
+          <Card key={result.id} cardResult={result}/>
+        ))
       }
     </div>
   )
