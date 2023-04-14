@@ -6,7 +6,7 @@ export default function Results({resultsProps}) {
   console.log(resultsProps[0])
   return (
     <div 
-      className=' 
+      className=' my-6
                   max-w-6xl mx-auto py-4
                   grid place-items-center gap-4
                   lg:grid-cols-4 
