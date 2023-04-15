@@ -1,6 +1,5 @@
 
-## view the website here
-[`View`](https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/).
+## view the website here [`View`](https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/).
 
 
 
