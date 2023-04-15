@@ -1,7 +1,7 @@
 
 ## view the website here
 ```bash
-(https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/)
+[`View`](https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/).
 ```
 
 
