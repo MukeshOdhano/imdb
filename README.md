@@ -1,7 +1,7 @@
 
 ## view the website here
 ```bash
-pnpm dev](https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/)
+https://imdb-clone-9tt0ndwwf-mukeshsodhano-gmailcom.vercel.app/
 ```
 
 
